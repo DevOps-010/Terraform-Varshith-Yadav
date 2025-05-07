@@ -1,0 +1,64 @@
+
+Terraform is an Infrastructure as Code (IaC) tool used to build, change, and version infrastructure safely and efficiently
+
+02/05
+room work
+ complete k8's master it all concepts 
+ and  do some dsa on binary tree and binary search tree 
+ and learn gcp cmds with practial knowledge
+ complete bookstore api and deploy it 
+ pratice english ookay till failure up to monday
+ start terraform as well
+
+ bookstore api first 
+
+ try to start build the llm for showcasing devops skills using llm models
+ in that llm project add database and devopsify the projject 
+ llm as  a service project do in class 
+ saturday and sunday complete k8's and terraform and binary tree with some english
+
+
+
+
+
+
+
+
+
+
+
+
+ [Notes For Terraform] 
+
+Terraform is an Infrastructure as Code (IaC) tool used to build, change, and version infrastructure safely and efficiently
+
+in terraform we write code in 'hcl' 
+
+lifecycle of terraform is first 'terraform init '{it will initilazie the terraform}   , 'terraform plan' {this give what it is going to perform} , 'terraform apply' {this will apply the configuration} and 'terraform destroy' {this will delete what erver you apply}
+
+
+
+All about providers: 
+    So , provider is a plugin where terraform understands that where it create infrastructure 
+    if you want your infrastructure in multi regions then you can provide a multi provider block 
+    and even we can matian our infrastructure in multi cloud as well 
+Variables in Terraform:
+    they are used for parameterized example is in main.tf file 
+
+generally we main.tf file split into --> main.tf , provider.tf , inputvar.tf , output.tf like this and this tfvars is also there file 
+
+
+condational expression in terraform
+    the syntx is conditional ? true-value :  false-value
+
+
+terraform Modules
+    A Terraform module is a set of Terraform configuration files in a single directory
+    in modules the all requried configuration staff we write in a module and in any other directory or in any place 
+    we provide the module path and also we pass the any input Variables id requried 
+
+Terraform tfstate
+    state file is heart of the terraform  and state file stores the information for every apply command
+    we use the cloud provider storage to store the tfstate file 
+
+

@@ -1,0 +1,60 @@
+<invoke name="artifacts">
+<parameter name="command">create</parameter>
+<parameter name="id">terraform-gitignore</parameter>
+<parameter name="type">application/vnd.ant.code</parameter>
+<parameter name="title">.gitignore for Terraform</parameter>
+<parameter name="language">plaintext</parameter>
+<parameter name="content"># Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used for local dev
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore lock files
+.terraform.lock.hcl
+
+# Ignore plan output files
+*tfplan*
+
+# Ignore state backup files
+*.backup
+
+# Ignore .terraform.d directory (used for provider plugins in older Terraform versions)
+.terraform.d/
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore environment variables files
+.env
+.envrc
+</parameter>
+</invoke>
